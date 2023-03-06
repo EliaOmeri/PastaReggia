@@ -1,0 +1,52 @@
+{
+  "images": [
+      {
+      "title": "Fusilli",
+      "description": "Fusilli Italian Pasta",
+      "url": "../assets/pasta-images/Fusilli2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Chifferini Rigati",
+      "description": "Chifferini Rigati Italian Pasta",
+      "url": "../assets/pasta-images/ChifferiniRigati2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Elbows",
+      "description": "Elbows Italian Pasta",
+      "url": "../assets/pasta-images/Elbows2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Gomiti Rigati",
+      "description": "Gomiti Rigati Italian Pasta",
+      "url": "../assets/pasta-images/GomitiRigati2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Penne Ziti Rigate",
+      "description": "Penne Ziti Rigate Italian Pasta",
+      "url": "../assets/pasta-images/PenneZitiRigate2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Tofe",
+      "description": "Tofe Italian Pasta",
+      "url": "../assets/pasta-images/Tofe2-removebg-preview.png",
+      "category":"makarona"
+    },
+    {
+      "title": "Farina",
+      "description": "Farina",
+      "url": "../assets/pasta-images/farine-removebg-preview.png",
+      "category":"miell"
+    },
+    {
+      "title": "Salsa",
+      "description": "Salsa di pomodori",
+      "url": "../assets/pasta-images/RossiPomodoriPelati.jpg",
+      "category":"salce"
+    }
+  ]
+}
