@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <nav class="navbar navbar-expand-lg  sticky-top p-0 px-4 px-lg-5">
     <a routerLink="" class="navbar-brand d-flex align-items-center">
       <img class="img-fluid me-2" src="../../assets/images/logo_retina.png" alt="" style="width: 100px;height: 70px;">
@@ -24,3 +25,37 @@
     </div>
   </nav>
   
+=======
+<nav class="navbar navbar-expand-lg  sticky-top p-0 px-4 px-lg-5">
+    <a routerLink="" class="navbar-brand d-flex align-items-center">
+        <img class="img-fluid me-2" src="../../assets/images/logo_retina.png" alt="" style="width: 100px;height: 70px;">
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+            <a routerLink="" class="nav-item nav-link" [class.active]="currentRoute === '/'">{{'Kryefaqja' | translate}}</a>
+            <a routerLink="about" class="nav-item nav-link" [class.active]="currentRoute === '/about'">{{'Reth nesh' | translate}}</a>
+            <a routerLink="products" class="nav-link"
+                [class.active]="currentRoute.startsWith('/products')">{{'Produktet' | translate}}</a>
+            <a routerLink="contact" class="nav-item nav-link" [class.active]="currentRoute === '/contact'">{{'Kontakt' | translate}}</a>
+        </div>
+        <div class="d-lg-inline-flex align-items-center d-none gap-2 h-50">
+            <button class="btn btn-light rounded-circle text-primary" type="submit"><i
+                    class="fab fa-facebook-f icon-nav"></i></button>
+            <button class="btn btn-light rounded-circle text-primary" type="submit"><i
+                    class="fab fa-instagram icon-nav"></i></button>
+            <button class="btn btn-light rounded-circle text-primary" type="submit"><i
+                    class="fa fa-envelope icon-nav"></i></button>
+            <!-- <a class="btn btn-square rounded-circle bg-light text-primary" href=""><i class="fab fa-facebook-f icon-nav"></i></a>
+        <a class="btn btn-square rounded-circle bg-light text-primary " href=""><i class="fab fa-instagram icon-nav"></i></a>
+        <a class="btn btn-square rounded-circle bg-light text-primary " href=""><i class="fa fa-envelope icon-nav"></i></a> -->
+        </div>
+       <div class="px-3">
+        <button (click)="switchLanguage('it')"><i class="flag-icon flag-icon-it"></i></button>
+        <button (click)="switchLanguage('al')"><i class="flag-icon flag-icon-al"></i></button>
+      </div>
+    </div>
+</nav>
+>>>>>>> Stashed changes

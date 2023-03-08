@@ -32,7 +32,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NgxPaginationModule,
     Ng2SearchPipeModule,
     FormsModule,
+<<<<<<< Updated upstream
     ReactiveFormsModule ,
+=======
+    ReactiveFormsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
+>>>>>>> Stashed changes
     
   ],
   providers: [],

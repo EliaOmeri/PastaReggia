@@ -1,18 +1,21 @@
 
-
+.scancode{
+  width: 70%;
+}
 .paddingTB60 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url("../../assets/pasta-images/fabricaa.jpg");
+    background:  url("../../assets/images/aboutus2wall-removebg-preview2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: #fff;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -300px;
 }
 
 
@@ -21,12 +24,13 @@
     font-size: 52px;
     font-weight: 600;
     text-transform: none;
-    color: #fff;
+    color: #1f1f89;
     font-family: 'Great Vibes', cursive;
+    padding-top: 90px;
 }
 
 .image-aboutus-para {
-    color: #fff;
+    color: #1f1f89;
 }
 
 a:hover {

@@ -12,7 +12,6 @@ export class ContactComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) {
     this.contactForm = this.formBuilder.group({
       'name': ['', Validators.required],
-      'email': ['', Validators.required],
       'subject': ['', Validators.required],
       'message': ['', Validators.required],
     });
@@ -23,7 +22,6 @@ export class ContactComponent implements OnInit {
 
   contactForm = new FormGroup({
     name: new FormControl(''),
-    email: new FormControl(''),
     subject: new FormControl(''),
     message: new FormControl(''),
   })

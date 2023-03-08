@@ -10,6 +10,14 @@ export class ProductsComponent {
   images: any[] = [];
   filteredImages: any[] | undefined;
   query: string = '';
+<<<<<<< Updated upstream
+=======
+  selectedCategory = '';
+  categories: string[] = ["Te gjitha", "Makarona", "Salce", "Oriz", "Miell"];
+  categories2: string[] = ["Tutti i prodotti", "Pasta", "Salsa", "Riso", "Farina"];
+  subcategories:string[]= ["Linja e makaronave te shkurtra","Linja e makaronave te gjata"]
+  translation: any;
+>>>>>>> Stashed changes
 
 
 selectedCategory = 'Zgjidh kategorine';
@@ -46,4 +54,13 @@ defaultHidden=false;
   ngOnInit() {
     this.getImages();
   }
+
+
+  // categories = {
+  //   'Te gjitha':'',
+  //   'Makarona': ['Te gjata', 'Te shkurtra', 'Dietike'],
+  //   'Salce': ['E kuqe', 'Jeshile'],
+  //   'Oriz': ['I bardhe', 'Dietik']
+  // };
+  
 }
