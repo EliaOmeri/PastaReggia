@@ -6,41 +6,32 @@
 
 
                 <div class="mb-3">
-                    <label class="form-label" for="name">Name</label>
-                    <input class="form-control" id="name" formControlName="name" type="text" placeholder="Name"
+                    <label class="form-label" for="name">{{ 'Emri' | translate }}</label>
+                    <input class="form-control" id="name" formControlName="name" type="text" [attr.placeholder]="'Emri' | translate"
                         data-sb-validations="required" />
                     <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                 </div>
 
 
                 <div class="mb-3">
-                    <label class="form-label" for="email">Email Address</label>
-                    <input class="form-control" id="email" type="email" formControlName="email"
-                        placeholder="Email Address" data-sb-validations="required, email" />
-                    <div class="invalid-feedback" data-sb-feedback="email:required">Email Address is required.
-                    </div>
-                    <div class="invalid-feedback" data-sb-feedback="email:email">Email Address Email is not
-                        valid.</div>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="subject">Email Subject</label>
+                    <label class="form-label" for="subject">{{ 'Tema' | translate }}</label>
                     <input class="form-control" id="subject" formControlName="subject" type="text"
-                        placeholder="Email Subject">
+                    [attr.placeholder]="'Tema e mesazhit' | translate">
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label" for="message">Message</label>
+                    <label class="form-label" for="message">{{ 'Mesazhi' | translate }}</label>
 
                 </div>
 
 
 
-                <textarea class="form-control" type="text" placeholder="Message" style="height: 10rem;"
+                <textarea class="form-control" type="text" [attr.placeholder]="'Mesazhi' | translate" style="height: 10rem;"
                     data-sb-validations="required" formControlName="message"></textarea>
 
 
                 <a [href]="emailLink" id="sendEmailLink">
-                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Send Email</button>
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">{{ 'Dergo' | translate }}</button>
                 </a>
 
             </form>

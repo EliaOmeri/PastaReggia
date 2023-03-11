@@ -1,5 +1,4 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component,OnInit} from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -27,7 +26,7 @@ export class ContactComponent implements OnInit {
     subject: new FormControl(''),
     message: new FormControl(''),
   })
-  emailAddress = "eliaomeri5@gmail.com";
+  emailAddress = "info@malogroupal.com";
 
   get subject() {
     return this.contactForm.get('subject')?.value;
