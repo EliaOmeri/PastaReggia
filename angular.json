@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/pastareggia-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -85,7 +85,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app"
             ],
             "styles": [
               "src/styles.css"

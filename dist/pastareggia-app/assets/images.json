@@ -1,0 +1,370 @@
+{
+  "images-it": [
+    {
+      "title": "Anelli",
+      "description": "Anelli Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Anelli.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Assortiti Misti",
+      "description": "Assortiti Misti Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Assortiti-MIsti.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Canneroni Lisci",
+      "description": "Canneroni Lisci Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Canneroni-Lisci.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Cavatappi",
+      "description": "Cavatappi Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Cavatappi.jpg",
+      "category": "pasta",
+      "subcategory": "corta" 
+    },
+    {
+      "title": "Chifferi Rigati",
+      "description": "Chifferi Rigati Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/chifferi_rigati.jpg",
+      "category": "pasta",
+      "subcategory": "corta" 
+    },
+    {
+      "title": "Chifferini Rigati",
+      "description": "Chifferi Rigati Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Chifferini-Rigati.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Coviglie Piccole",
+      "description": "Coviglie Piccole Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Coviglie-Piccole.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Ditali Rigati",
+      "description": "Ditali Rigati Italian Pasta",
+      "url": "../assets/pasta-images/PastaCorta/Ditali-Rigati.jpg",
+      "category": "pasta",
+      "subcategory":"corta"
+    },
+    {
+      "title": "Capellini",
+      "description": "Capellini Italian Pasta",
+      "url": "../assets/pasta-images/PastaLungha/Capellini.jpg",
+      "category": "pasta",
+      "subcategory":"lunga"
+    },
+    {
+      "title": "Bucatini",
+      "description": "Bucatini Italian Pasta",
+      "url": "../assets/pasta-images/PastaLungha/Bucatini.jpg",
+      "category": "pasta",
+      "subcategory":"lunga"
+    },
+    {
+      "title": "Linguine",
+      "description": "Linguine Italian Pasta",
+      "url": "../assets/pasta-images/PastaLungha/Linguine.jpg",
+      "category": "pasta",
+      "subcategory":"lunga"
+    },
+    {
+      "title": "Spaghettini",
+      "description": "Spaghettini Italian Pasta",
+      "url": "../assets/pasta-images/PastaLungha/Spaghettini.jpg",
+      "category": "pasta",
+      "subcategory":"lunga"
+    },
+    {
+      "title": "Vermicelli",
+      "description": "Vermicelli Italian Pasta",
+      "url": "../assets/pasta-images/PastaLungha/Vermicelli.jpg",
+      "category": "pasta",
+      "subcategory":"lunga"
+    },
+    {
+      "title": "Cannelloni",
+      "description": "Cannelloni Italian Pasta",
+      "url": "../assets/pasta-images/PastaSpeciale/Cannelloni.jpg",
+      "category": "pasta",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Farfalle",
+      "description": "Farfalle Italian Pasta",
+      "url": "../assets/pasta-images/PastaSpeciale/Farfalle.jpg",
+      "category": "pasta",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Lasagne",
+      "description": "Lasagne Italian Pasta",
+      "url": "../assets/pasta-images/PastaSpeciale/Lasagne.jpg",
+      "category": "pasta",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Pesto Alla Genovese",
+      "description": "Pesto Alla Genovese Succo",
+      "url": "../assets/pasta-images/Succo/leregionali-pesto-alla-genovesee.jpg",
+      "category": "salsa",
+      "subcategory":"succo"
+    },
+    {
+      "title": "Rossi Passata Di Pomodoro",
+      "description": "Rossi Passata Di Pomodoro",
+      "url": "../assets/pasta-images/rosso/Rossi-Passata-di-Pomodoroo.jpg",
+      "category": "salsa",
+      "subcategory":"rosso"
+    },
+    {
+      "title": "Farina",
+      "description": "Farina 1 kg",
+      "url": "../assets/pasta-images/farina/Farina.jpg",
+      "category": "farina",
+      "subcategory":" "
+    },
+    {
+      "title": "Linguine Integrale",
+      "description": "Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Linguine.jpg",
+      "category": "pasta",
+      "subcategory":"lunga",
+      "subcategory2":"lunga integrale"
+    },
+    {
+      "title": "Spaghetti Integrale",
+      "description": "Spaghetti Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Spaghetti.jpg",
+      "category": "pasta",
+      "subcategory":"lunga",
+      "subcategory2":"lunga integrale"
+    },
+    {
+      "title": "Ditali Rigati Integrale",
+      "description": "Ditali Rigati Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Ditali-Rigati.jpg",
+      "category": "pasta",
+      "subcategory":"corta",
+      "subcategory2":"corta integrale"
+    },
+    {
+      "title": "Elicoidali Integrale",
+      "description": "Elicoidali Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Elicoidali.jpg",
+      "category": "pasta",
+      "subcategory":"corta",
+      "subcategory2":"corta integrale"
+    },
+    {
+      "title": "Fusilli Integrale",
+      "description": "Fusilli Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Fusilli.jpg",
+      "category": "pasta",
+      "subcategory":"corta",
+      "subcategory2":"corta integrale"
+    },
+    {
+      "title": "Penne Rigate Integrale",
+      "description": "Penne Rigate Pasta Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Penne-Rigate-1.jpg",
+      "category": "pasta",
+      "subcategory":"corta",
+      "subcategory2":"corta integrale"
+    }
+
+  ],
+
+  "images-al": [
+    {
+      "title": "Anelli",
+      "description": "Makarona Italiane Anelli",
+      "url": "../assets/pasta-images/PastaCorta/Anelli.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Assortiti Misti",
+      "description": "Makarona Italiane Assortiti Misti",
+      "url": "../assets/pasta-images/PastaCorta/Assortiti-MIsti.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Canneroni Lisci",
+      "description": "Makarona Italiane Canneroni Lisci",
+      "url": "../assets/pasta-images/PastaCorta/Canneroni-Lisci.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Cavatappi",
+      "description": "Makarona Italiane Cavatappi Italian",
+      "url": "../assets/pasta-images/PastaCorta/Cavatappi.jpg",
+      "category": "makarona",
+      "subcategory": "linja e shkurter" 
+    },
+    {
+      "title": "Chifferi Rigati",
+      "description": "Makarona Italiane Chifferi Rigati",
+      "url": "../assets/pasta-images/PastaCorta/chifferi_rigati.jpg",
+      "category": "makarona",
+      "subcategory": "linja e shkurter" 
+    },
+    {
+      "title": "Chifferini Rigati",
+      "description": "Makarona Italiane Chifferi Rigati",
+      "url": "../assets/pasta-images/PastaCorta/Chifferini-Rigati.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Coviglie Piccole",
+      "description": "Makarona Italiane Coviglie Piccole",
+      "url": "../assets/pasta-images/PastaCorta/Coviglie-Piccole.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Ditali Rigati",
+      "description": "Makarona Italiane Ditali Rigati",
+      "url": "../assets/pasta-images/PastaCorta/Ditali-Rigati.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter"
+    },
+    {
+      "title": "Capellini",
+      "description": "Makarona Italiane Capellini",
+      "url": "../assets/pasta-images/PastaLungha/Capellini.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate"
+    },
+    {
+      "title": "Bucatini",
+      "description": "Makarona Italiane Bucatini",
+      "url": "../assets/pasta-images/PastaLungha/Bucatini.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate"
+    },
+    {
+      "title": "Linguine",
+      "description": "Makarona Italiane Linguine",
+      "url": "../assets/pasta-images/PastaLungha/Linguine.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate"
+    },
+    {
+      "title": "Spaghettini",
+      "description": "Makarona Italiane Spaghettini",
+      "url": "../assets/pasta-images/PastaLungha/Spaghettini.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate"
+    },
+    {
+      "title": "Vermicelli",
+      "description": "Makarona Italiane Vermicelli",
+      "url": "../assets/pasta-images/PastaLungha/Vermicelli.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate"
+    },
+    {
+      "title": "Cannelloni",
+      "description": "Makarona Italiane Cannelloni",
+      "url": "../assets/pasta-images/PastaSpeciale/Cannelloni.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Farfalle",
+      "description": "Makarona Italiane Farfalle",
+      "url": "../assets/pasta-images/PastaSpeciale/Farfalle.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Lasagne",
+      "description": "Makarona Italiane Lasagne",
+      "url": "../assets/pasta-images/PastaSpeciale/Lasagne.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Pesto Alla Genovese",
+      "description": "Sugo Italiane Pesto Alla Genovese",
+      "url": "../assets/pasta-images/Succo/leregionali-pesto-alla-genovesee.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
+    },
+    {
+      "title": "Rossi Passata Di Pomodoro",
+      "description": "Salce Domatesh",
+      "url": "../assets/pasta-images/rosso/Rossi-Passata-di-Pomodoroo.jpg",
+      "category": "salce",
+      "subcategory":"linja e kuqe"
+    },
+    {
+      "title": "Miell Italian ",
+      "description": "Miell 1 kg",
+      "url": "../assets/pasta-images/farina/Farina.jpg",
+      "category": "miell",
+      "subcategory":"miell"
+    },
+    {
+      "title": "Linguine Integrale",
+      "description": "Makarona Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Linguine.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate",
+      "subcategory2":"linja e gjate integrale"
+    },
+    {
+      "title": "Spaghetti Integrale",
+      "description": "Makarona Integrale Italiane",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Spaghetti.jpg",
+      "category": "makarona",
+      "subcategory":"linja e gjate",
+      "subcategory2":"linja e gjate integrale"
+    },
+    {
+      "title": "Ditali Rigati Integrale",
+      "description": "Makarona Integrale Italiane Ditali Rigati",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Ditali-Rigati.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter",
+      "subcategory2":"linja e shkurter integrale"
+    },
+    {
+      "title": "Elicoidali Integrale",
+      "description": "Makarona Integrale Italiane Elicoidali",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Elicoidali.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter",
+      "subcategory2":"linja e shkurter integrale"
+    },
+    {
+      "title": "Fusilli Integrale",
+      "description": "Makarona Integrale Italiane Fusilli",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Fusilli.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter",
+      "subcategory2":"linja e shkurter integrale"
+    },
+    {
+      "title": "Penne Rigate Integrale",
+      "description": "Makarona Integrale Italiane Penne Rigate",
+      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Penne-Rigate-1.jpg",
+      "category": "makarona",
+      "subcategory":"linja e shkurter",
+      "subcategory2":"linja e shkurter integrale"
+    }
+  ]
+}
