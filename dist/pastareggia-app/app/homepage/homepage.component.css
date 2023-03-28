@@ -1,0 +1,133 @@
+body{
+  background: url('../../assets/pasta-images/pastaback6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+}
+.row{
+overflow: auto;
+max-height: 670px;
+}
+.albania{
+font-family: Open Sans;
+margin-bottom: -13px;
+width: 80%;
+}
+.myBorder {
+display: inline-block;
+border-bottom-width: 15px;
+border-bottom-style: solid;
+border-color: #1f1f89;
+}
+.pasta {
+font-family: 'Great Vibes', cursive;
+font-size: 4rem;
+
+font-weight: 700;
+color: #1f1f89;
+margin: 20px 0 0;
+}
+
+.btn {
+
+background-color: #fff;
+color: #1f1f89;
+font-size: 18px;
+font-weight: 400;
+position: relative;
+border-radius: 0 !important;
+border: none;
+transition:all 0.3s ease 0s;
+margin-top: 40px;
+
+}
+.btn:hover,
+.btn.active:hover{
+color: #1f1f89;
+}
+.btn:before{
+content: "";
+position: absolute;
+top: -7px;
+left: 0;
+background-color:#1f1f89;
+width: 30%;
+height: 4px;
+transition:all 0.3s ease 0s;
+}
+.btn:after{
+content: "";
+position: absolute;
+bottom: -7px;
+right: 0;
+background-color:#1f1f89;
+width: 30%;
+height: 4px;
+transition:all 0.3s ease 0s;
+}
+.btn:hover:before,
+.btn:hover:after,
+.btn.active:before,
+.btn.active:after{
+width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .albania {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  
+  .pasta {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+body{
+  background-color: white;
+  background-image: none
+}
+.albania {
+  width: 90%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+body{
+  background: url('../../assets/pasta-images/pastaback6ipad.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+.albania {
+width: 100%;
+}
+}
+@media only screen and (min-width: 991px) and (max-width:1024px){
+  .albania {
+    width: 90%;
+    }
+}
+
+
+
+
+
+

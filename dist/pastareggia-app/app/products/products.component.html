@@ -1,0 +1,115 @@
+
+<div class="container-fluid">
+     
+  <div class="px-lg-5">
+    <div class="row py-5 d-flex justify-content-center">
+      <div class="col-md-2">
+        <button class="nav-item dropdown btn btn-outline-primary btn-block">
+          <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Zgjidh kategorine
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" (click)="getAllImages()">Te gjitha</a></li>
+            
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('makarona')">Makarona<span
+                  class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item"  (click)="getImagesBySubcategoryLang('linja e shkurter')">Linja e shkurter<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e shkurter')">Te gjitha'</a></li>
+                    <li><a class="dropdown-item"  (click)="getImagesBySubcategory2Lang('linja e shkurter integrale')">Integrale</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate')">Linja e gjate<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate')">Te gjitha</a></li>
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategory2Lang('linja e gjate integrale')">Integrale</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategory('speciale')">Speciale<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategory('chef')">Linja Chef<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('salce')">Salce<span
+                  class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e kuqe')">Linja e kuqe<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('sugo')">Linja e sugove te gatshme<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz')">Oriz<span
+                  class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+              <!-- <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz')">Te gjitha<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategory2Lang('oriz integral')">Oriz Integral<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+
+
+              </ul> -->
+            </li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('miell')">Miell<span
+                  class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+            </li>
+          </ul>
+        </button>
+
+      </div>
+      
+      <div class="col-md-3">
+        <div class="form-group">
+          <input (ngModelChange)="searchImages()" type="text" class="form-control mb-2" placeholder="Kerko produkt..." [(ngModel)]="query">
+        </div>
+      </div>
+ 
+    </div>
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6 mb-4" *ngFor="let image of filteredImages">
+        <div class="product bg-white align-content-center">
+          <img src="{{image.url}}" class="img-fluid card-img-top mx-auto d-block my-4" style="max-width: 250px;">
+          
+            <h5 class="text-center" style="color: #1f1f89;">{{image.title}}</h5>
+            <p class="small text-muted mb-0 text-center">{{image.description}}</p>
+       
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+

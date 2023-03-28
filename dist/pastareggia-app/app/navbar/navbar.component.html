@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg  sticky-top p-0 px-4 px-lg-5">
+    <a routerLink="" class="navbar-brand d-flex align-items-center">
+        <img class="img-fluid me-2" src="../../assets/images/logo_retina.png" alt="" style="width: 100px;height: 70px;">
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+            <a routerLink="" class="nav-item nav-link" [class.active]="currentRoute === '/'">Kryefaqja</a>
+            <a routerLink="about" class="nav-item nav-link" [class.active]="currentRoute === '/about'">Reth nesh</a>
+            <a routerLink="products" class="nav-link"
+                [class.active]="currentRoute.startsWith('/products')">Produktet</a>
+            <a routerLink="contact" class="nav-item nav-link" [class.active]="currentRoute === '/contact'">Kontakt</a>
+        </div>
+        <div class="d-lg-inline-flex align-items-center d-none gap-2 h-50">
+            <a href="https://www.facebook.com/profile.php?id=100089843122473&mibextid=LQQJ4d" target="_blank" style= "text-decoration: none;"><button
+                    class="btn btn-light rounded-circle text-primary" type="submit"><i
+                        class="fab fa-facebook-f icon-nav"></i></button></a>
+            <a href="https://instagram.com/pasta_reggia_albania?igshid=YmMyMTA2M2Y=" target="_blank" style= "text-decoration: none;"> <button
+                    class="btn btn-light rounded-circle text-primary" type="submit"><i
+                        class="fab fa-instagram icon-nav"></i></button></a>
+            <a href="mailto:info@malogroup.al" style= "text-decoration: none;"><button class="btn btn-light rounded-circle text-primary"
+                    type="submit"><i class="fa fa-envelope icon-nav"></i></button></a>
+        </div>
+
+    </div>
+</nav>
