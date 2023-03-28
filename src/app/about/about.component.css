@@ -12,12 +12,16 @@
       background-repeat: no-repeat;
       background-position: center center;
       color: #ffffff;
-      padding-top: 50px;
+      padding-top: 80px;
       padding-bottom: 50px;
       margin-right: -300px;
   }
   
-  
+  .video{
+    width:640px;
+     height:340px;
+     padding-right: 40px;
+  }
   
   .lg-text {
       font-size: 52px;
@@ -174,4 +178,88 @@
       background-color: white;
   }
   
+  .slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+  }
+  
+  .slider .slide-track {
+    display: flex;
+    width: 3550px; /* 9 slides * 250px */
+    animation-name: scroll;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .slider .slide-track .slide {
+    height: 100px;
+    width: 250px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1750px); /* 7 slides * 250px */
+    }
+  }
+  
+
+  .p-btn{
+    background-color: #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 650px;
+    margin: 10px auto;
+    padding: 15px;
+    border-right: 5px solid #1f1f89;
+    position: relative;
+    counter-increment: number; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-btn::before{
+    content: counter(number);
+    background-color: #1f1f89;
+    border-left: 1px solid #1f1f89;
+    border-radius: 50%; /* Set border-radius to 50% to make it circular */
+    
+    padding-top: 19px;
+    color: white;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+    width: 40px; /* Set the width to make it perfectly round */
+    height: 40px; /* Set the height to make it perfectly round */
+    line-height: 2px; /* Center the number vertically */
+}
+
+
+@media  (max-width: 575px){
+    .image-aboutus-banner{
+        width: 100%;
+        padding-top: 280px;
+        padding-bottom: 75px;
+    }
+.scancode{
+    width: 20%;
+  }
+.p-btn{
+    width: 400px;
+}
+.paddingTB60{
+    padding: 20px;
+}
+.video{
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 0px;
+}
+}
   

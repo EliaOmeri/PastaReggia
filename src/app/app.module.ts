@@ -18,6 +18,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutComponent } from './about/about.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

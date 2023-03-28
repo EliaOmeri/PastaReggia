@@ -2,36 +2,40 @@
     <div class="row d-flex justify-content-around">
         <div class="col-md-5">
             <!-- Bootstrap 5 starter form -->
-            <form [formGroup]="contactForm" id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form [formGroup]="contactForm"  id="contactForm" data-sb-form-api-token="API_TOKEN">
 
 
                 <div class="mb-3">
-                    <label class="form-label" for="name">{{ 'Emri' | translate }}</label>
-                    <input class="form-control" id="name" formControlName="name" type="text" [attr.placeholder]="'Emri' | translate"
+                    <label class="form-label" for="name">Emri</label>
+                    <input class="form-control" id="name" formControlName="name" type="text" placeholder="Emri"
                         data-sb-validations="required" />
                     <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                 </div>
 
 
                 <div class="mb-3">
-                    <label class="form-label" for="subject">{{ 'Tema' | translate }}</label>
+                    <label class="form-label" for="subject">Tema</label>
                     <input class="form-control" id="subject" formControlName="subject" type="text"
-                    [attr.placeholder]="'Tema e mesazhit' | translate">
+                    placeholder="Tema e mesazhit">
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label" for="message">{{ 'Mesazhi' | translate }}</label>
+                    <label class="form-label" for="message">Mesazhi</label>
 
                 </div>
 
 
 
-                <textarea class="form-control" type="text" [attr.placeholder]="'Mesazhi' | translate" style="height: 10rem;"
+                <textarea class="form-control" type="text" placeholder="Mesazhi" style="height: 10rem;"
                     data-sb-validations="required" formControlName="message"></textarea>
+<div class="form-group form-check pt-3 pb-3">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">I agree to the <a>Terms &amp; Conditions</a>.</label>
+                  </div>
 
+                <a [href]="emailLink" id="sendEmailLink" (click)="resetForm()">
 
-                <a [href]="emailLink" id="sendEmailLink">
-                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">{{ 'Dergo' | translate }}</button>
+                    <button type="submit" id="submitButton" class="btn btn-primary">Dergo</button>
                 </a>
 
             </form>

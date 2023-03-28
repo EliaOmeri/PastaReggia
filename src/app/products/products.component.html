@@ -2,38 +2,42 @@
 <div class="container-fluid">
      
   <div class="px-lg-5">
-    <div class="row py-5 d-flex justify-content-end">
-      <div class="col-md-3">
+    <div class="row py-5 d-flex justify-content-center">
+      <div class="col-md-2">
         <button class="nav-item dropdown btn btn-outline-primary btn-block">
           <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{ 'Zgjidh kategorine' | translate }}
+            Zgjidh kategorine
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="getAllImages()">{{ 'Te gjitha' | translate }}</a></li>
+            <li><a class="dropdown-item" (click)="getAllImages()">Te gjitha</a></li>
             
             <li class="dropdown-submenu">
-              <a class="dropdown-item" (click)="getImagesByCategoryLang('makarona','pasta')">{{ 'Makarona' | translate }}<span
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('makarona')">Makarona<span
                   class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item"  (click)="getImagesBySubcategoryLang('linja e shkurter','corta')">{{ 'Linja e shkurter' | translate }}<span
+                  <a class="dropdown-item"  (click)="getImagesBySubcategoryLang('linja e shkurter')">Linja e shkurter<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e shkurter','corta')">{{ 'Te gjitha' | translate }}</a></li>
-                    <li><a class="dropdown-item"  (click)="getImagesBySubcategory2Lang('linja e shkurter integrale','corta integrale')">Integrale</a></li>
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e shkurter')">Te gjitha'</a></li>
+                    <li><a class="dropdown-item"  (click)="getImagesBySubcategory2Lang('linja e shkurter integrale')">Integrale</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate','lunga')">{{ 'Linja e gjate' | translate }}<span
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate')">Linja e gjate<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate','lunga')">{{ 'Te gjitha' | translate }}</a></li>
-                    <li><a class="dropdown-item" (click)="getImagesBySubcategory2Lang('linja e gjate integrale','lunga integrale')">Integrale</a></li>
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e gjate')">Te gjitha</a></li>
+                    <li><a class="dropdown-item" (click)="getImagesBySubcategory2Lang('linja e gjate integrale')">Integrale</a></li>
                   </ul>
                 </li>
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('speciale','speciale')">{{'Speciale' | translate}}<span
+                  <a class="dropdown-item" (click)="getImagesBySubcategory('speciale')">Speciale<span
+                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" (click)="getImagesBySubcategory('chef')">Linja Chef<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                 </li>
 
@@ -41,16 +45,16 @@
               </ul>
             </li>
             <li class="dropdown-submenu">
-              <a class="dropdown-item" (click)="getImagesByCategoryLang('salce','salsa')"> {{'Salce' | translate}}<span
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('salce')">Salce<span
                   class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e kuqe','rosso')">{{'Linja e kuqe' | translate}}<span
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('linja e kuqe')">Linja e kuqe<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                 </li>
 
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('sugo','succo')">{{'Linja e sugove te gatshme' | translate}}<span
+                  <a class="dropdown-item" (click)="getImagesBySubcategoryLang('sugo')">Linja e sugove te gatshme<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                 </li>
 
@@ -58,36 +62,25 @@
               </ul>
             </li>
             <li class="dropdown-submenu">
-              <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz','riso')"> {{'Oriz' | translate}}<span
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz')">Oriz<span
                   class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
-              <ul class="dropdown-menu">
+              <!-- <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz','riso')">{{ 'Te gjitha' | translate }}<span
+                  <a class="dropdown-item" (click)="getImagesByCategoryLang('oriz')">Te gjitha<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                 </li>
 
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategory2Lang('oriz integral','riso integrale')">Oriz Integral<span
+                  <a class="dropdown-item" (click)="getImagesBySubcategory2Lang('oriz integral')">Oriz Integral<span
                       class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
                 </li>
 
 
-              </ul>
+              </ul> -->
             </li>
             <li class="dropdown-submenu">
-              <a class="dropdown-item" (click)="getImagesByCategoryLang('miell','farina')">{{'Miell' | translate}}<span
+              <a class="dropdown-item" (click)="getImagesByCategoryLang('miell')">Miell<span
                   class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesByCategoryLang('miell','farina')">{{ 'Te gjitha' | translate }}<span
-                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
-                </li>
-
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" (click)="getImagesBySubcategory2Lang('miell integral','farina integrale')">{{'Miell Integral' | translate}}<span
-                      class="float-end custom-toggle-arrow"><i class="bi bi-arrow-right-short"></i></span></a>
-                </li>
-              </ul>
             </li>
           </ul>
         </button>
@@ -96,12 +89,10 @@
       
       <div class="col-md-3">
         <div class="form-group">
-          <input type="text" class="form-control mb-2" [attr.placeholder]="'Kerko produkt...' | translate" [(ngModel)]="query">
+          <input (ngModelChange)="searchImages()" type="text" class="form-control mb-2" placeholder="Kerko produkt..." [(ngModel)]="query">
         </div>
       </div>
-      <div class="col-md-3">
-        <button class="btn btn-primary mb-2" (click)="searchImages()">{{'Kerko' | translate}}</button>
-      </div>
+ 
     </div>
 
     <div class="row">

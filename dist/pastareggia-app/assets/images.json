@@ -1,189 +1,5 @@
 {
-  "images-it": [
-    {
-      "title": "Anelli",
-      "description": "Anelli Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Anelli.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Assortiti Misti",
-      "description": "Assortiti Misti Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Assortiti-MIsti.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Canneroni Lisci",
-      "description": "Canneroni Lisci Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Canneroni-Lisci.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Cavatappi",
-      "description": "Cavatappi Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Cavatappi.jpg",
-      "category": "pasta",
-      "subcategory": "corta" 
-    },
-    {
-      "title": "Chifferi Rigati",
-      "description": "Chifferi Rigati Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/chifferi_rigati.jpg",
-      "category": "pasta",
-      "subcategory": "corta" 
-    },
-    {
-      "title": "Chifferini Rigati",
-      "description": "Chifferi Rigati Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Chifferini-Rigati.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Coviglie Piccole",
-      "description": "Coviglie Piccole Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Coviglie-Piccole.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Ditali Rigati",
-      "description": "Ditali Rigati Italian Pasta",
-      "url": "../assets/pasta-images/PastaCorta/Ditali-Rigati.jpg",
-      "category": "pasta",
-      "subcategory":"corta"
-    },
-    {
-      "title": "Capellini",
-      "description": "Capellini Italian Pasta",
-      "url": "../assets/pasta-images/PastaLungha/Capellini.jpg",
-      "category": "pasta",
-      "subcategory":"lunga"
-    },
-    {
-      "title": "Bucatini",
-      "description": "Bucatini Italian Pasta",
-      "url": "../assets/pasta-images/PastaLungha/Bucatini.jpg",
-      "category": "pasta",
-      "subcategory":"lunga"
-    },
-    {
-      "title": "Linguine",
-      "description": "Linguine Italian Pasta",
-      "url": "../assets/pasta-images/PastaLungha/Linguine.jpg",
-      "category": "pasta",
-      "subcategory":"lunga"
-    },
-    {
-      "title": "Spaghettini",
-      "description": "Spaghettini Italian Pasta",
-      "url": "../assets/pasta-images/PastaLungha/Spaghettini.jpg",
-      "category": "pasta",
-      "subcategory":"lunga"
-    },
-    {
-      "title": "Vermicelli",
-      "description": "Vermicelli Italian Pasta",
-      "url": "../assets/pasta-images/PastaLungha/Vermicelli.jpg",
-      "category": "pasta",
-      "subcategory":"lunga"
-    },
-    {
-      "title": "Cannelloni",
-      "description": "Cannelloni Italian Pasta",
-      "url": "../assets/pasta-images/PastaSpeciale/Cannelloni.jpg",
-      "category": "pasta",
-      "subcategory":"speciale"
-    },
-    {
-      "title": "Farfalle",
-      "description": "Farfalle Italian Pasta",
-      "url": "../assets/pasta-images/PastaSpeciale/Farfalle.jpg",
-      "category": "pasta",
-      "subcategory":"speciale"
-    },
-    {
-      "title": "Lasagne",
-      "description": "Lasagne Italian Pasta",
-      "url": "../assets/pasta-images/PastaSpeciale/Lasagne.jpg",
-      "category": "pasta",
-      "subcategory":"speciale"
-    },
-    {
-      "title": "Pesto Alla Genovese",
-      "description": "Pesto Alla Genovese Succo",
-      "url": "../assets/pasta-images/Succo/leregionali-pesto-alla-genovesee.jpg",
-      "category": "salsa",
-      "subcategory":"succo"
-    },
-    {
-      "title": "Rossi Passata Di Pomodoro",
-      "description": "Rossi Passata Di Pomodoro",
-      "url": "../assets/pasta-images/rosso/Rossi-Passata-di-Pomodoroo.jpg",
-      "category": "salsa",
-      "subcategory":"rosso"
-    },
-    {
-      "title": "Farina",
-      "description": "Farina 1 kg",
-      "url": "../assets/pasta-images/farina/Farina.jpg",
-      "category": "farina",
-      "subcategory":" "
-    },
-    {
-      "title": "Linguine Integrale",
-      "description": "Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Linguine.jpg",
-      "category": "pasta",
-      "subcategory":"lunga",
-      "subcategory2":"lunga integrale"
-    },
-    {
-      "title": "Spaghetti Integrale",
-      "description": "Spaghetti Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Spaghetti.jpg",
-      "category": "pasta",
-      "subcategory":"lunga",
-      "subcategory2":"lunga integrale"
-    },
-    {
-      "title": "Ditali Rigati Integrale",
-      "description": "Ditali Rigati Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Ditali-Rigati.jpg",
-      "category": "pasta",
-      "subcategory":"corta",
-      "subcategory2":"corta integrale"
-    },
-    {
-      "title": "Elicoidali Integrale",
-      "description": "Elicoidali Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Elicoidali.jpg",
-      "category": "pasta",
-      "subcategory":"corta",
-      "subcategory2":"corta integrale"
-    },
-    {
-      "title": "Fusilli Integrale",
-      "description": "Fusilli Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Fusilli.jpg",
-      "category": "pasta",
-      "subcategory":"corta",
-      "subcategory2":"corta integrale"
-    },
-    {
-      "title": "Penne Rigate Integrale",
-      "description": "Penne Rigate Pasta Integrale Italiane",
-      "url": "../assets/pasta-images/PastaIntegrale/NutriBIO-Penne-Rigate-1.jpg",
-      "category": "pasta",
-      "subcategory":"corta",
-      "subcategory2":"corta integrale"
-    }
-
-  ],
-
+  
   "images-al": [
     {
       "title": "Anelli",
@@ -276,30 +92,52 @@
       "category": "makarona",
       "subcategory":"linja e gjate"
     },
+    
     {
-      "title": "Cannelloni",
-      "description": "Makarona Italiane Cannelloni",
-      "url": "../assets/pasta-images/PastaSpeciale/Cannelloni.jpg",
-      "category": "makarona",
-      "subcategory":"speciale"
+      "title": "Sugo e gatshme me spec djeges & domate",
+      "description": "Sugo Italiane e gatshme me spec djeges & domate",
+      "url": "../assets/pasta-images/Succo/leregionali-sugo-all-arrabbiataa.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
     },
     {
-      "title": "Farfalle",
-      "description": "Makarona Italiane Farfalle",
-      "url": "../assets/pasta-images/PastaSpeciale/Farfalle.jpg",
-      "category": "makarona",
-      "subcategory":"speciale"
+      "title": "Sugo e gatshme bolognese",
+      "description": "Sugo Italiane e gatshme bolognese",
+      "url": "../assets/pasta-images/Succo/leregionali-sugo-alla-bolognesee.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
     },
     {
-      "title": "Lasagne",
-      "description": "Makarona Italiane Lasagne",
-      "url": "../assets/pasta-images/PastaSpeciale/Lasagne.jpg",
-      "category": "makarona",
-      "subcategory":"speciale"
+      "title": "Sugo e gatshme domate & patellxhan",
+      "description": "Sugo Italiane e gatshme me domate & patellxhan",
+      "url": "../assets/pasta-images/Succo/leregionali-sugo-alla-normaa.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
     },
     {
-      "title": "Pesto Alla Genovese",
-      "description": "Sugo Italiane Pesto Alla Genovese",
+      "title": "Sugo e gatshme domate & pancete",
+      "description": "Sugo Italiane e gatshme me domate & pancete",
+      "url": "../assets/pasta-images/Succo/leregionali-sugo-alla-amatricianaa.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
+    },
+    {
+      "title": "Sugo e gatshme napoletana",
+      "description": "Sugo Italiane e gatshme me domate & borzilok",
+      "url": "../assets/pasta-images/Succo/leregionali-sugo-alla-napoletanaa.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
+    },
+    {
+      "title": "Pesto e kuqe",
+      "description": "Pesto Italiane e gatshme me domate te kuqe & rikota",
+      "url": "../assets/pasta-images/Succo/leregionali-pesto-rossoo.jpg",
+      "category": "salce",
+      "subcategory":"sugo"
+    },
+    {
+      "title": "Pesto  Genovese",
+      "description": "Sugo Italiane Pesto  Genovese",
       "url": "../assets/pasta-images/Succo/leregionali-pesto-alla-genovesee.jpg",
       "category": "salce",
       "subcategory":"sugo"
@@ -308,6 +146,27 @@
       "title": "Rossi Passata Di Pomodoro",
       "description": "Salce Domatesh",
       "url": "../assets/pasta-images/rosso/Rossi-Passata-di-Pomodoroo.jpg",
+      "category": "salce",
+      "subcategory":"linja e kuqe"
+    },
+    {
+      "title": "Rossi Polpa Di Pomodori",
+      "description": "Salce me tul domatesh",
+      "url": "../assets/pasta-images/rosso/Rossi-Polpa-di-Pomodorii.jpg",
+      "category": "salce",
+      "subcategory":"linja e kuqe"
+    },
+    {
+      "title": "Rossi Pomodori Pelati",
+      "description": "Salce me  domate",
+      "url": "../assets/pasta-images/rosso/Rossi-Pomodori-Pelatii.jpg",
+      "category": "salce",
+      "subcategory":"linja e kuqe"
+    },
+    {
+      "title": "Rossi Pomodori Pelati 2550 gr",
+      "description": "Salce me  domate 2550 gram",
+      "url": "../assets/pasta-images/rosso/pomodori-pelati-2550g.jpg",
       "category": "salce",
       "subcategory":"linja e kuqe"
     },
@@ -365,6 +224,333 @@
       "category": "makarona",
       "subcategory":"linja e shkurter",
       "subcategory2":"linja e shkurter integrale"
+    },
+    {
+      "title": "Calamarata",
+      "description": "Makarona Italiane Calamarata",
+      "url": "../assets/pasta-images/PastaSpeciale/Calamarata_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Orecchiette",
+      "description": "Makarona Italiane Orecchiette",
+      "url": "../assets/pasta-images/PastaSpeciale/102.Orecchiette-pack.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Capellini a nidi",
+      "description": "Makarona Italiane Capellini",
+      "url": "../assets/pasta-images/PastaSpeciale/Capellini-a-Nido-4.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Casareccia",
+      "description": "Makarona Italiane Casareccia",
+      "url": "../assets/pasta-images/PastaSpeciale/casareccia_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Fettucce",
+      "description": "Makarona Italiane Fettucce",
+      "url": "../assets/pasta-images/PastaSpeciale/Fettucce_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Fettuccine a nido",
+      "description": "Makarona Italiane Fettuccine",
+      "url": "../assets/pasta-images/PastaSpeciale/Fettuccine-a-Nido_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Fusilli Tricolore",
+      "description": "Makarona Italiane Fusilli 3 Ngjyreshe",
+      "url": "../assets/pasta-images/PastaSpeciale/Fusilli-Tricolore.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Fusillone Napolitane",
+      "description": "Makarona Italiane Fusillone 3 Ngjyreshe",
+      "url": "../assets/pasta-images/PastaSpeciale/Fusillone-Napoletano_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Mafalde",
+      "description": "Makarona Italiane Mafalde",
+      "url": "../assets/pasta-images/PastaSpeciale/Mafalde_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Maltagliata Riccia",
+      "description": "Makarona Italiane Maltagliata Riccia",
+      "url": "../assets/pasta-images/PastaSpeciale/Maltagliata-Riccia-ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Millerighi",
+      "description": "Makarona Italiane Millerighi",
+      "url": "../assets/pasta-images/PastaSpeciale/Millerighi_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title":"Spaghetto Quadro Novita",
+      "description": " Makarona Italiane Spaghetto Quadro",
+      "url": "../assets/pasta-images/PastaSpeciale/Spaghetto-quadro_novità.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Cannelloni",
+      "description": "Cannelloni Italiane",
+      "url": "../assets/pasta-images/PastaSpeciale/Cannelloni.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Farfalle",
+      "description": "Makarona Italiane Farfalle",
+      "url": "../assets/pasta-images/PastaSpeciale/Farfalle.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Farfalline",
+      "description": "Makarona Italiane Farfalline",
+      "url": "../assets/pasta-images/PastaSpeciale/Farfalline_ok.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Lasagne",
+      "description": "Lasagne Italiane",
+      "url": "../assets/pasta-images/PastaSpeciale/Lasagne.jpg",
+      "category": "makarona",
+      "subcategory":"speciale"
+    },
+    {
+      "title": "Oriz",
+      "description": "Oriz Italian",
+      "url": "../assets/pasta-images/Riso.jpg",
+      "category": "oriz"
+    },
+    {
+      "title": "23.Elicoidali",
+      "description": "Linja Chef Elicoidali 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-elicoidali.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "34.Penne Ziti Rigate",
+      "description": "Linja Chef Penne Ziti Rigate 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-penne-ziti-rigate.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "63.Cavatappi",
+      "description": "Linja Chef Cavatappi 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-cavatappi.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "64.Gnocchi",
+      "description": "Linja Chef Gnocchi 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-gnocchi.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "36.Penne Mezzani Rigate",
+      "description": "Linja Chef Penne Mezzani Rigate 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-penne-mezzani-rigate.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "38.Mezze Penne Zite Rigate",
+      "description": "Linja Chef Mezze Penne Zite Rigate 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-mezze-penne-ziti-rigate.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "65.Fusilli tricolori",
+      "description": "Linja Chef Fusilli tricolori 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-fusilli-tricolore.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "83.Farfalle",
+      "description": "Linja Chef Farfalle 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-farfalle.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "62.Tofe",
+      "description": "Linja Chef Tofe 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-tofe.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "60.Gomiti Rigati",
+      "description": "Linja Chef Gomiti Rigati 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-gomiti-rigati.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "48.Fusilli",
+      "description": "Linja Chef Fusilli 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-fusillii.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "45.Sedanini Rigati",
+      "description": "Linja Chef Sedanini Rigati 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-sedanini-rigati.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "47.Gemelli",
+      "description": "Linja Chef Gemelli 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-gemelli.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+   
+    {
+      "title": "55.Ditalini",
+      "description": "Linja Chef Ditalini 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-ditalini-rigati.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    
+    {
+      "title": "76.Riso",
+      "description": "Linja Chef Riso 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-riso.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "68.Lumachine",
+      "description": "Linja Chef Lumachine 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-lumachine.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "58.Elbows",
+      "description": "Linja Chef Elbows 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-elbows.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "80.Stelline",
+      "description": "Linja Chef Stelline 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-stelline.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "29.Sigarette Mezzani",
+      "description": "Linja Chef Sigarette Mezzani 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-sigarette-mezzani.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "94.Chifferini Rigati",
+      "description": "Linja Chef Chifferini Rigati 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-chifferini-rigati.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+  
+    {
+      "title": "58.Casareccia",
+      "description": "Linja Chef Casareccia 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-casareccia.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    
+    {
+      "title": "71.Coviglie Piccole",
+      "description": "Linja Chef Coviglie Piccole 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-coviglie-piccole.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "102.Orecchiette",
+      "description": "Linja Chef Orecchiette 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-orecchiette.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "107.Maltagliata riccia",
+      "description": "Linja Chef Maltagliata riccia 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-maltagliata-riccia.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    
+    {
+      "title": "77.Spaghetti Tagliati",
+      "description": "Linja Chef Spaghetti Tagliati 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-spaghetti-tagliati.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "19.Spaghetti",
+      "description": "Linja Chef Spaghetti 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-spaghetti.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "17.Vermicelli",
+      "description": "Linja Chef Vermicelli 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-vermicelli.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "15.Bucatini",
+      "description": "Linja Chef Bucatini 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-bucatini.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
+    },
+    {
+      "title": "5.Linguine",
+      "description": "Linja Chef Linguine 5kg",
+      "url": "../assets/pasta-images/Chef/5kg-linguine.jpg",
+      "category": "makarona",
+      "subcategory":"chef"
     }
   ]
+
 }

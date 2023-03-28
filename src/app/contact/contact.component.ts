@@ -26,7 +26,7 @@ export class ContactComponent implements OnInit {
     subject: new FormControl(''),
     message: new FormControl(''),
   })
-  emailAddress = "info@malogroupal.com";
+  emailAddress = "groupmalo5@gmail.com";
 
   get subject() {
     return this.contactForm.get('subject')?.value;
@@ -35,9 +35,14 @@ export class ContactComponent implements OnInit {
   get message() {
     return this.contactForm.get('message')?.value;
   }
+  resetForm() {
+    this.contactForm.reset();
+  }
 
   get emailLink() {
     return `mailto:${this.emailAddress}?subject=${this.subject}&body=${this.message}`;
+   
   }
+
 
 }
